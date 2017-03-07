@@ -1,7 +1,8 @@
 body{
 	background-color: #F0F0F0;
 	display: flex;
-	justify-content : space-around;
+	justify-content :center;
+	align-items : center;
 	flex-wrap : wrap;
 }
 
@@ -18,31 +19,33 @@ p{
 	font-size: 1.5em;
 	padding: 10px;
 	border : 5px solid #00D3A6;
-	background-color: #005A47;
+	background-color: #006683;
 	animation-name : couleur;
-	animation-duration : 2s;
+	animation-duration : 1s;
 	animation-iteration-count : infinite;
 	color: white;
 }
 
-#ex{
+.ex{
 	padding: 20px;
-	border : solid 5px #4ED7E2;
-	background-color: #00586B;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	background-color: #00C6F0;
 	color: white;
 	width: 20%;
+	margin: 10px;
 	margin-bottom: 10px;
+	height: 50vh;
 	h3{
 		font-size: 1.5em;
 		padding: 10px;
-		border : 5px solid #0090D9;
-		background-color: #152064;
-		color: white;
+		background-color: white;
+		color: black;
+		font-weight: lighter;
 	}
 }
 
 @keyframes couleur{
-	0%{border : solid 5px #00D3A6;}
+	0%{border : solid 5px #00A5AC;}
 	50%{border : solid 5px white;}
-	100%{border : solid 5px #00D3A6;}
+	100%{border : solid 5px #00A5AC;}
 }

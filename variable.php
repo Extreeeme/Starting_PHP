@@ -9,25 +9,25 @@
 		<link rel="stylesheet" href="style/css/style.css">
 	</head>
 	<body>
-		<div id="ex">
+		<div class="ex "  id="ex1">
 		<?php
 			//Exercice 1
 			echo "<h3>Exercice 1</h3>";
-			$nom = "Martin";
-			echo "<p>".$nom."</p>";
+			$nOm = "Martin";
+			echo "<p>".$nOm."</p>";
 		?>
 		</div>
-		<div id="ex">
+		<div class="ex" id="ex2">
 		<?php
 			//Exercice 2
 			echo "<h3>Exercice 2</h3>";
-			$nom = "HULEU";
+			$Nom = "HULEU";
 			$prenom = "Eddy";
 			$age = 4;
-			echo "<p>". $nom . " ". $prenom ." " . $age ."</p>";
+			echo "<p>". $Nom . " ". $prenom ." " . $age ."</p>";
 		?>
 		</div>
-		<div id="ex">
+		<div class="ex"  id="ex3">
 		<?php
 			//Exercice 3
 			echo "<h3>Exercice 3</h3>";
@@ -42,7 +42,7 @@
 			echo $kilometre."</p>";
 		?>
 		</div>
-		<div id="ex">
+		<div class="ex" id="ex4">
 		<?php
 			//Exercice 4
 			echo "<h3>Exercice 4</h3>";
@@ -53,7 +53,7 @@
 			echo "<p>" . "Int : " . $int ."<br/>" . "Float :" .$float . "<br/>" . "String : ".$string. "<br/>" . "Boolean : ".$boolean;
 		?>
 		</div>
-		<div id="ex">
+		<div class="ex" id="ex5">
 		<?php
 			//Exercice 5
 			echo "<h3>Exercice 5</h3>";
@@ -61,6 +61,14 @@
 			echo "<p>".$void."<br/>";
 			$void = 42;
 			echo $void . "</p>";
+		?>
+		</div>
+		<div class="ex" id="ex6">
+		<?php
+			//Exercice 6
+			echo "<h3>Exercice 6</h3>";
+			$noms = "Aymeric";
+			echo "<p>" . "Bonjour " . $noms . " comment vas-tu ? </p>";
 		?>
 		</div>
 	</body>
