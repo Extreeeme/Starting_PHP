@@ -18,6 +18,16 @@
 			$prenom = "Eddy";
 			$age = 4;
 			echo "<p>". $nom . " ". $prenom ." " . $age ."</p>";
+			//Exercice 3
+			$kilometre = 1;
+			echo "<p>Kilomètres : ";
+			echo $kilometre."</p>";
+			$kilometre = 3;
+			echo "<p>Kilomètres : ";
+			echo $kilometre."</p>";
+			$kilometre = 125;
+			echo "<p>Kilomètres : ";
+			echo $kilometre."</p>";
 		?>
 	</body>
 </html>
