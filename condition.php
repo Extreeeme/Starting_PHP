@@ -103,18 +103,36 @@
 		<?php
 			//Exercice 6
 			echo "<h3>EXERCICE 6</h3>";
+			$MAVARIABLE = false;
+			if($MAVARIABLE == true){
+				echo "<p>C'est OK !</p>";
+			}else{
+				echo "<p>C'est pas bon !</p>";
+			}
 		?>
 		</div>
 		<div class="ex ">
 		<?php
 			//Exercice 7
 			echo "<h3>EXERCICE 7</h3>";
+			$monAge = 21;
+			if($monAge >=18){
+				echo "<p>Tu est majeur";
+			}else{
+				echo "<p>Tu n'est pas majeur";
+			}
 		?>
 		</div>
 		<div class="ex ">
 		<?php
 			//Exercice 8
 			echo "<h3>EXERCICE 8</h3>";
+			$MAVARIABLe = false;
+			if($MAVARIABLe){
+				echo "<p>C'est OK !</p>";
+			}else{
+				echo "<p>C'est pas bon !</p>";
+			}
 		?>
 		</div>
 
