@@ -9,16 +9,28 @@
 		<link rel="stylesheet" href="style/css/style.css">
 	</head>
 	<body>
+		<div id="ex">
 		<?php
 			//Exercice 1
+			echo "<h3>Exercice 1</h3>";
 			$nom = "Martin";
 			echo "<p>".$nom."</p>";
+		?>
+		</div>
+		<div id="ex">
+		<?php
 			//Exercice 2
+			echo "<h3>Exercice 2</h3>";
 			$nom = "HULEU";
 			$prenom = "Eddy";
 			$age = 4;
 			echo "<p>". $nom . " ". $prenom ." " . $age ."</p>";
+		?>
+		</div>
+		<div id="ex">
+		<?php
 			//Exercice 3
+			echo "<h3>Exercice 3</h3>";
 			$kilometre = 1;
 			echo "<p>Kilomètres : ";
 			echo $kilometre."</p>";
@@ -29,5 +41,17 @@
 			echo "<p>Kilomètres : ";
 			echo $kilometre."</p>";
 		?>
+		</div>
+		<div id="ex">
+		<?php
+			//Exercice 4
+			echo "<h3>Exercice 4</h3>";
+			$int = 2;
+			$float = 3.2;
+			$string = "Coucou";
+			$boolean = true;
+			echo "<p>" . "Int : " . $int ."<br/>" . "Float :" .$float . "<br/>" . "String : ".$string. "<br/>" . "Boolean : ".$boolean;
+		?>
+		</div>
 	</body>
 </html>
