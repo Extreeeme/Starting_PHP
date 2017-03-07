@@ -4,6 +4,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>Starting_PHP</title>
 		<link rel="stylesheet" href="style/css/style.css">
@@ -90,6 +91,34 @@
 			$addition3 = 45 / 5;
 			echo "<p> 3 + 4 = " . $addition . "<br/>5 * 20 = ".$addition2."<br/>45 / 5 = ".$addition3."</p>";
 
+		?>
+		</div>
+		<div class="ex">
+		<?php
+			//Exercice 9
+			echo "<h3>EXERCICE 9</h3>";
+			
+		?>
+		</div>
+		<div class="ex">
+		<?php
+			//Exercice 9
+			echo "<h3>EXERCICE 10</h3>";
+			
+		?>
+		</div>
+		<div class="ex">
+		<?php
+			//Exercice 9
+			echo "<h3>EXERCICE 11</h3>";
+			
+		?>
+		</div>
+		<div class="ex">
+		<?php
+			//Exercice 9
+			echo "<h3>EXERCICE 12</h3>";
+			
 		?>
 		</div>
 	</body>
