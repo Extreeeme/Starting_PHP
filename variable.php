@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="style/css/style.css">
 	</head>
 	<body>
-		<div class="ex "  id="ex1">
+		<div class="ex ">
 		<?php
 			//Exercice 1
 			echo "<h3>EXERCICE1</h3>";
@@ -17,7 +17,7 @@
 			echo "<p>".$nOm."</p>";
 		?>
 		</div>
-		<div class="ex" id="ex2">
+		<div class="ex">
 		<?php
 			//Exercice 2
 			echo "<h3>EXERCICE 2</h3>";
@@ -27,7 +27,7 @@
 			echo "<p>". $Nom . " ". $prenom ." " . $age ."</p>";
 		?>
 		</div>
-		<div class="ex"  id="ex3">
+		<div class="ex">
 		<?php
 			//Exercice 3
 			echo "<h3>EXERCICE 3</h3>";
@@ -42,18 +42,18 @@
 			echo $kilometre."</p>";
 		?>
 		</div>
-		<div class="ex" id="ex4">
+		<div class="ex">
 		<?php
 			//Exercice 4
 			echo "<h3>EXERCICE 4</h3>";
-			$string = "Coucou";
-			$int = 42;
-			$float = 3.2;
-			$boolean = true;
-			echo "<p>" . "Int : " . $int ."<br/>" . "Float :" .$float . "<br/>" . "String : ".$string. "<br/>" . "Boolean : ".$boolean;
+			$un_string = "Coucou";
+			$un_int = 42;
+			$un_float = 3.2;
+			$un_boolean = true;
+			echo "<p>" . "Int : " . $un_int ."<br/>" . "Float : " .$un_float . "<br/>" . "String : ".$un_string. "<br/>" . "Boolean : ".$un_boolean;
 		?>
 		</div>
-		<div class="ex" id="ex5">
+		<div class="ex">
 		<?php
 			//Exercice 5
 			echo "<h3>EXERCICE 5</h3>";
@@ -63,7 +63,7 @@
 			echo $void . "</p>";
 		?>
 		</div>
-		<div class="ex" id="ex6">
+		<div class="ex">
 		<?php
 			//Exercice 6
 			echo "<h3>EXERCICE 6</h3>";
@@ -71,7 +71,7 @@
 			echo "<p>" . "Bonjour " . $noms . " comment vas-tu ? </p>";
 		?>
 		</div>
-		<div class="ex" id="ex7">
+		<div class="ex">
 		<?php
 			//Exercice 6
 			echo "<h3>EXERCICE 7</h3>";
@@ -79,6 +79,17 @@
 			$PRENOM = "Aymeric";
 			$AGE = 12;
 			echo "<p>" . "Bonjour " . $NOM ." ". $PRENOM. " tu as ".$AGE." ans </p>";
+		?>
+		</div>
+		<div class="ex">
+		<?php
+			//Exercice 8
+			echo "<h3>EXERCICE 8</h3>";
+			$addition = 3 + 4;
+			$addition2 = 5 * 20;
+			$addition3 = 45 / 5;
+			echo "<p> 3 + 4 = " . $addition . "<br/>5 * 20 = ".$addition2."<br/>45 / 5 = ".$addition3."</p>";
+
 		?>
 		</div>
 	</body>
