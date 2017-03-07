@@ -46,11 +46,21 @@
 		<?php
 			//Exercice 4
 			echo "<h3>Exercice 4</h3>";
-			$int = 2;
-			$float = 3.2;
 			$string = "Coucou";
+			$int = 42;
+			$float = 3.2;
 			$boolean = true;
 			echo "<p>" . "Int : " . $int ."<br/>" . "Float :" .$float . "<br/>" . "String : ".$string. "<br/>" . "Boolean : ".$boolean;
+		?>
+		</div>
+		<div id="ex">
+		<?php
+			//Exercice 5
+			echo "<h3>Exercice 5</h3>";
+			$void = (int)null;
+			echo "<p>".$void."<br/>";
+			$void = 42;
+			echo $void . "</p>";
 		?>
 		</div>
 	</body>

@@ -17,6 +17,9 @@ p {
   padding: 10px;
   border: 5px solid #00D3A6;
   background-color: #005A47;
+  animation-name: couleur;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
   color: white; }
 
 #ex {
@@ -24,10 +27,19 @@ p {
   border: solid 5px #4ED7E2;
   background-color: #00586B;
   color: white;
-  width: 20%; }
+  width: 20%;
+  margin-bottom: 10px; }
   #ex h3 {
     font-size: 1.5em;
     padding: 10px;
     border: 5px solid #0090D9;
     background-color: #152064;
     color: white; }
+
+@keyframes couleur {
+  0% {
+    border: solid 5px #00D3A6; }
+  50% {
+    border: solid 5px white; }
+  100% {
+    border: solid 5px #00D3A6; } }
