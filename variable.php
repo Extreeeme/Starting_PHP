@@ -12,7 +12,7 @@
 		<div class="ex "  id="ex1">
 		<?php
 			//Exercice 1
-			echo "<h3>Exercice 1</h3>";
+			echo "<h3>EXERCICE1</h3>";
 			$nOm = "Martin";
 			echo "<p>".$nOm."</p>";
 		?>
@@ -20,7 +20,7 @@
 		<div class="ex" id="ex2">
 		<?php
 			//Exercice 2
-			echo "<h3>Exercice 2</h3>";
+			echo "<h3>EXERCICE 2</h3>";
 			$Nom = "HULEU";
 			$prenom = "Eddy";
 			$age = 4;
@@ -30,7 +30,7 @@
 		<div class="ex"  id="ex3">
 		<?php
 			//Exercice 3
-			echo "<h3>Exercice 3</h3>";
+			echo "<h3>EXERCICE 3</h3>";
 			$kilometre = 1;
 			echo "<p>Kilomètres : ";
 			echo $kilometre."</p>";
@@ -45,7 +45,7 @@
 		<div class="ex" id="ex4">
 		<?php
 			//Exercice 4
-			echo "<h3>Exercice 4</h3>";
+			echo "<h3>EXERCICE 4</h3>";
 			$string = "Coucou";
 			$int = 42;
 			$float = 3.2;
@@ -56,7 +56,7 @@
 		<div class="ex" id="ex5">
 		<?php
 			//Exercice 5
-			echo "<h3>Exercice 5</h3>";
+			echo "<h3>EXERCICE 5</h3>";
 			$void = (int)null;
 			echo "<p>".$void."<br/>";
 			$void = 42;
@@ -66,9 +66,19 @@
 		<div class="ex" id="ex6">
 		<?php
 			//Exercice 6
-			echo "<h3>Exercice 6</h3>";
+			echo "<h3>EXERCICE 6</h3>";
 			$noms = "Aymeric";
 			echo "<p>" . "Bonjour " . $noms . " comment vas-tu ? </p>";
+		?>
+		</div>
+		<div class="ex" id="ex7">
+		<?php
+			//Exercice 6
+			echo "<h3>EXERCICE 7</h3>";
+			$NOM = "LACOSTE";
+			$PRENOM = "Aymeric";
+			$AGE = 12;
+			echo "<p>" . "Bonjour " . $NOM ." ". $PRENOM. " tu as ".$AGE." ans </p>";
 		?>
 		</div>
 	</body>

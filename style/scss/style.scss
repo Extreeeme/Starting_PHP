@@ -1,8 +1,13 @@
+@font-face {
+ 	font-family: 'roboto';
+ 	src:url(../../font/Roboto-l.ttf);
+ }
 body{
 	background-color: #F0F0F0;
 	display: flex;
 	justify-content :center;
 	align-items : center;
+	font-family: 'roboto';
 	flex-wrap : wrap;
 }
 
@@ -18,8 +23,8 @@ a{
 p{
 	font-size: 1.5em;
 	padding: 10px;
-	border : 5px solid #00D3A6;
-	background-color: #006683;
+	border : 5px solid #770C00;
+	background-color: #870901;
 	animation-name : couleur;
 	animation-duration : 1s;
 	animation-iteration-count : infinite;
@@ -29,7 +34,7 @@ p{
 .ex{
 	padding: 20px;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-	background-color: #00C6F0;
+	background-color: #EA1800;
 	color: white;
 	width: 20%;
 	margin: 10px;
@@ -45,7 +50,7 @@ p{
 }
 
 @keyframes couleur{
-	0%{border : solid 5px #00A5AC;}
-	50%{border : solid 5px white;}
-	100%{border : solid 5px #00A5AC;}
+	0%{border : solid 5px #770C00;}
+	50%{border : solid 5px #FF0000;}
+	100%{border : solid 5px #770C00;}
 }
