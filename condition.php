@@ -90,6 +90,13 @@
 		<?php
 			//Exercice 5
 			echo "<h3>EXERCICE 5</h3>";
+			$maVariable = "Femme";
+			if($maVariable == 'Homme'){
+				echo "<p>C'est un développeur !";
+			}else{
+				echo "<p>C'est une développeuse";
+			}
+
 		?>
 		</div>
 		<div class="ex ">
