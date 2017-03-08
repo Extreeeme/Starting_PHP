@@ -18,5 +18,29 @@
 		</div>
 		</div>
 
+		<div id="no_scroll">
+		<div class="ex ">
+		<form action="user.php" methode="post">
+			<input type="text" name ="nom" placeholder="Nom">
+			<input type="text" name ="prenom" placeholder="Prénom">
+			<button type="submit">VALIDE FRERE</button>
+		</form>
+		</div>
+		</div>
+
+		<div id="no_scroll">
+		<div class="ex ">
+		<form action="" method="POST">
+			<select name="select" >
+				<option value="Mr">Mr</option>
+				<option value="Mme">Mme</option>
+			</select>
+				<input type="text" name ="nom" placeholder="Nom">
+				<input type="text" name ="prenom" placeholder="Prénom">
+				<button type="submit">VALIDE FRERE</button>
+		</form>
+		</div>
+		</div>
+
 	</body>
 </html>
