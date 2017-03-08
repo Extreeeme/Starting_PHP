@@ -8,9 +8,21 @@
 		<link rel="stylesheet" href="style/css/style.css">
 	</head>
 	<body>
-		<a href="variable.php">Exercice 1</a>
-		<a href="condition.php">Exercice 2</a>
-		<a href="boucle.php">Exercice 3</a>
-		<a href="fonction.php">Exercice 4</a>
+		<div id="no_scroll">
+		<div class="ex ">
+		<?php
+			//Exercice 1
+			echo "<h3>EXERCICE 1</h3>";
+			function true(){
+				return true;
+			}
+			if(true()){
+				echo "<p id='koukou'>TEST OK</p>";
+			}else{
+				echo "<p>ERREUR</p>";			}
+		?>
+		</div>
+		</div>
+
 	</body>
 </html>
