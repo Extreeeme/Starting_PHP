@@ -54,9 +54,14 @@
 		<?php
 			//Exercice 5
 			echo "<h3>EXERCICE 5</h3>";
-			$POSTE = [["Aisne",02],["Nord", 59],["Oise", 60],["Pas-de-Calais", 62],["Somme", 80]];
+			$POSTE = array(
+				02 => "Aisne",
+				59 => "Nord",
+				60 => "Oise",
+				62 => "Pas-de-Calais",
+				80 => "Somme");
 			foreach ($POSTE as $key => $value) {
-				echo "<p id='koukou'>". $value[0]." (".$value[1] . ")</p>";
+				echo "<p id='koukou'>". $value."</p>";
 			}
 		?>
 		</div>
@@ -66,7 +71,17 @@
 		<?php
 			//Exercice 6
 			echo "<h3>EXERCICE 6</h3>";
-			echo "<p id='koukou'>".$POSTE[1][1]."</p>";
+			echo "<p id='koukou'>".$POSTE[59]."</p>";
+		?>
+		</div>
+		</div>
+		<div id="no_scroll">
+		<div class="ex ">
+		<?php
+			//Exercice 7
+			echo "<h3>EXERCICE 7</h3>";
+			$POSTE[51]="Marne";
+			echo "<p id='koukou'>".$POSTE[51]."</p>";
 		?>
 		</div>
 		</div>
