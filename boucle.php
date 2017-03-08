@@ -96,7 +96,9 @@
 		<?php
 			//Exercice 7
 			echo "<h3>EXERCICE 7</h3>";
-
+			for ($i=1; $i < 100; $i= $i+15) { 
+				echo "<p id='koukou'>On tiens le bambou !</p>";
+			}
 		?>
 		</div>
 		</div>
@@ -105,8 +107,16 @@
 		<?php
 			//Exercice 8
 			echo "<h3>EXERCICE 8</h3>";
-
+			for ($i=200; $i >0 ; $i= $i-12) { 
+				echo "<p id='koukou'>Enfin !!!</p>";
+			}
 		?>
+		</div>
+		</div>
+
+		<div id="no_scroll">
+		<div class="ex">
+		
 		</div>
 		</div>
 	</body>
