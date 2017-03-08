@@ -9,9 +9,8 @@
 	</head>
 	<body>
 		<a href="parametres/Exercice1.php?nom=Nemare&prenom=Jean">Exercice 1</a>
-		</div>
 		<a href="parametres/Exercice2.php?nom=Nemare&prenom=Jean">Exercice 2</a>
-		</div>
+		<a href="parametres/Exercice3.php?dateDebut=2/05/2016&dateFin=27/11/2016">Exercice 3</a>
 
 	</body>
 </html>

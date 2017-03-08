@@ -10,7 +10,7 @@
 	<body>
 	<div id="no_scroll">
 	<div class="ex">
-	<h3>Exercice 1</h3>
+	<h3>Exercice 2</h3>
 	<?php
 	if(isset($_GET["age"])){
 		echo "<p id='koukou'>".$_GET["age"]."</p>";
