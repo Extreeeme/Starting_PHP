@@ -30,6 +30,11 @@
 
 		<div id="no_scroll">
 		<div class="ex ">
+		<?php if(isset($_POST["select"], $_POST["nom"], $_POST["prenom"])){ ?>
+		<?php echo "<p id='koukou'>". $_POST["select"]. " ". $_POST["nom"]. " ".$_POST["prenom"]; ?>
+		<?php }else{ ?>
+
+
 		<form action="" method="POST">
 			<select name="select" >
 				<option value="Mr">Mr</option>
@@ -39,8 +44,8 @@
 				<input type="text" name ="prenom" placeholder="Prénom">
 				<button type="submit">VALIDE FRERE</button>
 		</form>
+		<?php }?>
 		</div>
 		</div>
-
 	</body>
 </html>
