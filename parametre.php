@@ -10,6 +10,8 @@
 	<body>
 		<a href="parametres/Exercice1.php?nom=Nemare&prenom=Jean">Exercice 1</a>
 		</div>
+		<a href="parametres/Exercice2.php?nom=Nemare&prenom=Jean">Exercice 2</a>
+		</div>
 
 	</body>
 </html>
