@@ -78,5 +78,21 @@
 		?>
 		</div>
 		</div>
+		<div id="no_scroll">
+		<div class="ex ">
+		<?php
+			//Exercice 5
+			echo "<h3>EXERCICE 5</h3>";
+			function plop(int $NOMBRE, string $PHRASE){
+				return $NOMBRE.$PHRASE;
+			}
+			if(plop(2, "GNE") == "2GNE"){
+				echo "<p id='koukou'>TEST OK</p>";
+			}else{
+				echo "<p>ERREUR</p>";
+			}	
+		?>
+		</div>
+		</div>
 	</body>
 </html>
