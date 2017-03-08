@@ -31,17 +31,25 @@
 		<div id="no_scroll">
 		<div class="ex ">
 		<?php if(isset($_POST["select"], $_POST["nom"], $_POST["prenom"])){ ?>
-		<?php echo "<p id='koukou'>". $_POST["select"]. " ". $_POST["nom"]. " ".$_POST["prenom"]; ?>
+		<?php 
+		$fichier = explode('.', $_FILES["fichier"]["name"]);
+			if($fichier[1] == "pdf"){
+			echo "<p id='koukou'>". $_POST["select"]. " ". $_POST["nom"]. " ".$_POST["prenom"]. " ".$_FILES["fichier"]["name"];
+			}else{
+				echo "<p id='koukou'>". $_POST["select"]. " ". $_POST["nom"]. " ".$_POST["prenom"]; 
+			}
+		?>
 		<?php }else{ ?>
 
 
-		<form action="" method="POST">
+		<form action="" method="POST" enctype="multipart/form-data">
 			<select name="select" >
 				<option value="Mr">Mr</option>
 				<option value="Mme">Mme</option>
 			</select>
 				<input type="text" name ="nom" placeholder="Nom">
 				<input type="text" name ="prenom" placeholder="Prénom">
+				 <input type="file" name="fichier" >
 				<button type="submit">VALIDE FRERE</button>
 		</form>
 		<?php }?>
