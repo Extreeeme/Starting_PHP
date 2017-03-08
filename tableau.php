@@ -44,7 +44,29 @@
 		<?php
 			//Exercice 4
 			echo "<h3>EXERCICE 4</h3>";
-			
+			$MOIS[3] = "Julien";
+			echo "<p id='koukou'>".$MOIS[3] . "</p>";
+		?>
+		</div>
+		</div>
+		<div id="no_scroll">
+		<div class="ex ">
+		<?php
+			//Exercice 5
+			echo "<h3>EXERCICE 5</h3>";
+			$POSTE = [["Aisne",02],["Nord", 59],["Oise", 60],["Pas-de-Calais", 62],["Somme", 80]];
+			foreach ($POSTE as $key => $value) {
+				echo "<p id='koukou'>". $value[0]." (".$value[1] . ")</p>";
+			}
+		?>
+		</div>
+		</div>
+		<div id="no_scroll">
+		<div class="ex ">
+		<?php
+			//Exercice 6
+			echo "<h3>EXERCICE 6</h3>";
+			echo "<p id='koukou'>".$POSTE[1][1]."</p>";
 		?>
 		</div>
 		</div>
