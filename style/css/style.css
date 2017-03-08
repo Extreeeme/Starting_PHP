@@ -91,3 +91,8 @@ p {
     border: solid 5px #FF0000; }
   100% {
     border: solid 5px #770C00; } }
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
