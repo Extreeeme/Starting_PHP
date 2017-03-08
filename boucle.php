@@ -8,21 +8,30 @@
 		<link rel="stylesheet" href="style/css/style.css">
 	</head>
 	<body>
-		<div class="ex ">
+		<div class="ex2 ">
 		<?php
 			//Exercice 1
 			echo "<h3>EXERCICE 1</h3>";
 			$koukou = 0;
 			while ($koukou < 10) {
-				echo "<p id='koukou'>".$koukou."</p>";
+				echo "<p id='koukou'>".$koukou;
 				$koukou ++;
 			}
+			echo "</p>";
 		?>
 		</div>
-		<div class="ex">
+		<div class="ex2">
 		<?php
 			//Exercice 2
 			echo "<h3>EXERCICE 2</h3>";
+			$koko = 0;
+			$kiki = 42;
+			while ($koko <=20) {
+				$TOTAL = $koko * $kiki;
+				echo "<p id='koukou2'>".$TOTAL;
+				$koko ++;
+			}
+			echo "</p>";
 
 		?>
 		</div>
