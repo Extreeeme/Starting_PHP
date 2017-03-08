@@ -56,5 +56,27 @@
 		?>
 		</div>
 		</div>
+		<div id="no_scroll">
+		<div class="ex ">
+		<?php
+			//Exercice 4
+			echo "<h3>EXERCICE 4</h3>";
+			function lala(int $num, int $num2){
+				if($num > $num2){
+					return "Le premier nombre est plus grand";
+				}elseif($num < $num2){
+					return "Le premier nombre est plus petit";
+				}else{
+					return "Les deux nombres sont identiques";
+				}
+			}
+			if(lala(2, 2) == "Les deux nombres sont identiques"){
+				echo "<p id='koukou'>TEST OK</p>";
+			}else{
+				echo "<p>ERREUR</p>";
+			}			
+		?>
+		</div>
+		</div>
 	</body>
 </html>
