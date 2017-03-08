@@ -11,7 +11,7 @@
 		<div class="ex ">
 		<?php
 			//Exercice 1
-			echo "<h3>EXERCICE1</h3>";
+			echo "<h3>EXERCICE 1</h3>";
 			$nOm = "Martin";
 			echo "<p>".$nOm."</p>";
 		?>
