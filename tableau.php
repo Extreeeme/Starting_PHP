@@ -27,6 +27,23 @@
 			//Exercice 2
 			echo "<h3>EXERCICE 2</h3>";
 			echo "<p id='koukou'>".$MOIS[2]."</p>";
+		?>
+		</div>
+		</div>
+		<div id="no_scroll">
+		<div class="ex ">
+		<?php
+			//Exercice 3
+			echo "<h3>EXERCICE 3</h3>";
+			echo "<p id='koukou'>".$MOIS[5]."</p>";
+		?>
+		</div>
+		</div>
+		<div id="no_scroll">
+		<div class="ex ">
+		<?php
+			//Exercice 4
+			echo "<h3>EXERCICE 4</h3>";
 			
 		?>
 		</div>
