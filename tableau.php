@@ -104,9 +104,31 @@
 			//Exercice 9
 			echo "<h3>EXERCICE 9</h3>";
 			foreach ($POSTE as $key => $value) {
+				echo "<p id='koukou'>(".$key.")</p>";
+			}
+		?>
+		</div>
+		</div>
+		<div id="no_scroll">
+		<div class="ex ">
+		<?php
+			//Exercice 10
+			echo "<h3>EXERCICE 10</h3>";
+			foreach ($POSTE as $key => $value) {
 				echo "<p id='koukou'>". $value." (".$key.")</p>";
 			}
 		?>
+		</div>
+		</div>
+		<div id="no_scroll">
+		<div class="ex ">
+		
+		</div>
+		</div>
+
+		<div id="no_scroll">
+		<div class="ex ">
+		
 		</div>
 		</div>
 
