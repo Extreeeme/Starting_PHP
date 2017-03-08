@@ -85,6 +85,19 @@
 		?>
 		</div>
 		</div>
+		<div id="no_scroll">
+		<div class="ex ">
+		<?php
+			//Exercice 8
+			echo "<h3>EXERCICE 8</h3>";
+			$MOIS = ["Janvier","Fevrier","Mars","Avril","Mai","Juin","Juillet","Aout","Septembre","Octobre","Novembre", "Décembre"];
+			foreach ($MOIS as $key => $value) {
+				echo "<p id='koukou'>".$value."</p>";
+			}
+			
+		?>
+		</div>
+		</div>
 
 	</body>
 </html>
