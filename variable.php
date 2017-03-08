@@ -8,7 +8,8 @@
 		<link rel="stylesheet" href="style/css/style.css">
 	</head>
 	<body>
-		<div class="ex ">
+		<div id="no_scroll">
+		<div class="ex3 ">
 		<?php
 			//Exercice 1
 			echo "<h3>EXERCICE 1</h3>";
@@ -16,7 +17,8 @@
 			echo "<p>".$nOm."</p>";
 		?>
 		</div>
-		<div class="ex">
+		</div>
+		<div class="ex3">
 		<?php
 			//Exercice 2
 			echo "<h3>EXERCICE 2</h3>";
@@ -26,6 +28,7 @@
 			echo "<p>". $Nom . " ". $prenom ." " . $age ."</p>";
 		?>
 		</div>
+		<div id="no_scroll">
 		<div class="ex">
 		<?php
 			//Exercice 3
@@ -41,7 +44,9 @@
 			echo $kilometre."</p>";
 		?>
 		</div>
-		<div class="ex">
+		</div>
+		<div id="no_scroll">
+		<div class="ex3">
 		<?php
 			//Exercice 4
 			echo "<h3>EXERCICE 4</h3>";
@@ -52,7 +57,9 @@
 			echo "<p>" . "Int : " . $un_int ."<br/>" . "Float : " .$un_float . "<br/>" . "String : ".$un_string. "<br/>" . "Boolean : ".$un_boolean;
 		?>
 		</div>
-		<div class="ex">
+		</div>
+		<div id="no_scroll">
+		<div class="ex3">
 		<?php
 			//Exercice 5
 			echo "<h3>EXERCICE 5</h3>";
@@ -62,7 +69,9 @@
 			echo $void . "</p>";
 		?>
 		</div>
-		<div class="ex">
+		</div>
+		<div id="no_scroll">
+		<div class="ex3">
 		<?php
 			//Exercice 6
 			echo "<h3>EXERCICE 6</h3>";
@@ -70,7 +79,9 @@
 			echo "<p>" . "Bonjour " . $noms . " comment vas-tu ? </p>";
 		?>
 		</div>
-		<div class="ex">
+		</div>
+		<div id="no_scroll">
+		<div class="ex3">
 		<?php
 			//Exercice 7
 			echo "<h3>EXERCICE 7</h3>";
@@ -80,7 +91,9 @@
 			echo "<p>" . "Bonjour " . $NOM ." ". $PRENOM. " tu as ".$AGE." ans </p>";
 		?>
 		</div>
-		<div class="ex">
+		</div>
+		<div id="no_scroll">
+		<div class="ex3">
 		<?php
 			//Exercice 8
 			echo "<h3>EXERCICE 8</h3>";
@@ -90,6 +103,7 @@
 			echo "<p> 3 + 4 = " . $addition . "<br/>5 * 20 = ".$addition2."<br/>45 / 5 = ".$addition3."</p>";
 
 		?>
+		</div>
 		</div>
 	</body>
 </html>

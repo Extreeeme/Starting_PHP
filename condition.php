@@ -8,7 +8,8 @@
 		<link rel="stylesheet" href="style/css/style.css">
 	</head>
 	<body>
-		<div class="ex ">
+	<div id="no_scroll">
+		<div class="ex3 ">
 		<?php
 			//Exercice 1
 			echo "<h3>EXERCICE 1</h3>";
@@ -20,7 +21,9 @@
 			}
 		?>
 		</div>
-		<div class="ex ">
+		</div>
+		<div id="no_scroll">
+		<div class="ex3">
 		<?php
 			//Exercice 2
 			echo "<h3>EXERCICE 2</h3>";
@@ -33,7 +36,9 @@
 
 		?>
 		</div>
-		<div class="ex ">
+		</div>
+		<div id="no_scroll">
+		<div class="ex3 ">
 		<?php
 			//Exercice 3
 			echo "<h3>EXERCICE 3</h3>";
@@ -50,7 +55,9 @@
 			}
 		?>
 		</div>
-		<div class="ex ">
+		</div>
+		<div id="no_scroll">
+		<div class="ex3 ">
 		<?php
 			//Exercice 4
 			echo "<h3>EXERCICE 4</h3>";
@@ -86,7 +93,9 @@
 			}
 		?>
 		</div>
-		<div class="ex ">
+		</div>
+		<div id="no_scroll">
+		<div class="ex3 ">
 		<?php
 			//Exercice 5
 			echo "<h3>EXERCICE 5</h3>";
@@ -99,7 +108,9 @@
 
 		?>
 		</div>
-		<div class="ex ">
+		</div>
+		<div id="no_scroll">
+		<div class="ex3 ">
 		<?php
 			//Exercice 6
 			echo "<h3>EXERCICE 6</h3>";
@@ -111,7 +122,9 @@
 			}
 		?>
 		</div>
-		<div class="ex ">
+		</div>
+		<div id="no_scroll">
+		<div class="ex3 ">
 		<?php
 			//Exercice 7
 			echo "<h3>EXERCICE 7</h3>";
@@ -123,7 +136,9 @@
 			}
 		?>
 		</div>
-		<div class="ex ">
+		</div>
+		<div id="no_scroll">
+		<div class="ex3 ">
 		<?php
 			//Exercice 8
 			echo "<h3>EXERCICE 8</h3>";
@@ -134,6 +149,7 @@
 				echo "<p>C'est pas bon !</p>";
 			}
 		?>
+		</div>
 		</div>
 
 	</body>

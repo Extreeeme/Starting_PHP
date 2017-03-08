@@ -37,24 +37,33 @@ p{
 	animation : none;
 	border : none;
 	text-align: center;
+	margin: 20px;
 }
 
 #koukou2{
 	font-size: 0.6em;
-	padding: 0;
+	margin: 20px;
 	animation : none;
 	border : none;
 	text-align: center;
 }
-.ex2{
-	padding: 20px;
+
+#no_scroll{
+	width: 300px;
+	margin: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+
+.ex{
+
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	background-color: #EA1800;
 	color: white;
-	width: 20%;
-	margin: 10px;
-	margin-bottom: 10px;
-	height: 80vh;
+	width: 310px;
+	height: 50vh;
+	overflow-y:scroll;
 	h3{
 		font-size: 1.5em;
 		padding: 10px;
@@ -62,17 +71,17 @@ p{
 		color: black;
 		font-weight: lighter;
 		text-align: center;
+		margin: 20px;
 	}
 }
 
-.ex{
-	padding: 20px;
+.ex3{
+
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	background-color: #EA1800;
 	color: white;
-	width: 20%;
-	margin: 10px;
-	margin-bottom: 10px;
+	padding: 10px;
+	width: 280px;
 	height: 50vh;
 	h3{
 		font-size: 1.5em;
@@ -81,6 +90,7 @@ p{
 		color: black;
 		font-weight: lighter;
 		text-align: center;
+		margin: 20px;
 	}
 }
 

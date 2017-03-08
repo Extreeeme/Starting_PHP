@@ -32,48 +32,53 @@ p {
   padding: 0;
   animation: none;
   border: none;
-  text-align: center; }
+  text-align: center;
+  margin: 20px; }
 
 #koukou2 {
   font-size: 0.6em;
-  padding: 0;
+  margin: 20px;
   animation: none;
   border: none;
   text-align: center; }
 
-.ex2 {
-  padding: 20px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  background-color: #EA1800;
-  color: white;
-  width: 20%;
+#no_scroll {
+  width: 300px;
   margin: 10px;
   margin-bottom: 10px;
-  height: 80vh; }
-  .ex2 h3 {
-    font-size: 1.5em;
-    padding: 10px;
-    background-color: white;
-    color: black;
-    font-weight: lighter;
-    text-align: center; }
+  overflow: hidden; }
 
 .ex {
-  padding: 20px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   background-color: #EA1800;
   color: white;
-  width: 20%;
-  margin: 10px;
-  margin-bottom: 10px;
-  height: 50vh; }
+  width: 310px;
+  height: 50vh;
+  overflow-y: scroll; }
   .ex h3 {
     font-size: 1.5em;
     padding: 10px;
     background-color: white;
     color: black;
     font-weight: lighter;
-    text-align: center; }
+    text-align: center;
+    margin: 20px; }
+
+.ex3 {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background-color: #EA1800;
+  color: white;
+  padding: 10px;
+  width: 280px;
+  height: 50vh; }
+  .ex3 h3 {
+    font-size: 1.5em;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    font-weight: lighter;
+    text-align: center;
+    margin: 20px; }
 
 @keyframes couleur {
   0% {
