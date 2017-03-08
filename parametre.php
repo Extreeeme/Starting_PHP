@@ -8,11 +8,8 @@
 		<link rel="stylesheet" href="style/css/style.css">
 	</head>
 	<body>
-		<a href="variable.php">Exercice 1</a>
-		<a href="condition.php">Exercice 2</a>
-		<a href="boucle.php">Exercice 3</a>
-		<a href="fonction.php">Exercice 4</a>
-		<a href="tableau.php">Exercice 5</a>
-		<a href="parametre.php">Exercice 6</a>
+		<a href="parametres/Exercice1.php?nom=Nemare&prenom=Jean">Exercice 1</a>
+		</div>
+
 	</body>
 </html>
