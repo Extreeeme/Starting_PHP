@@ -61,7 +61,7 @@
 				62 => "Pas-de-Calais",
 				80 => "Somme");
 			foreach ($POSTE as $key => $value) {
-				echo "<p id='koukou'>". $value."</p>";
+				echo "<p id='koukou'>". $value." (".$key.")</p>";
 			}
 		?>
 		</div>
@@ -95,6 +95,17 @@
 				echo "<p id='koukou'>".$value."</p>";
 			}
 			
+		?>
+		</div>
+		</div>
+		<div id="no_scroll">
+		<div class="ex ">
+		<?php
+			//Exercice 9
+			echo "<h3>EXERCICE 9</h3>";
+			foreach ($POSTE as $key => $value) {
+				echo "<p id='koukou'>". $value." (".$key.")</p>";
+			}
 		?>
 		</div>
 		</div>
