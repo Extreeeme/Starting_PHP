@@ -94,5 +94,61 @@
 		?>
 		</div>
 		</div>
+		<div id="no_scroll">
+		<div class="ex ">
+		<?php
+			//Exercice 6
+			echo "<h3>EXERCICE 6</h3>";
+			function plup(string $nom, string $prenom, int $age){
+				return "Bonjour ".$prenom." ".$nom." tu as ".$age." ans.";
+			}
+			if(plup("DAGOSTINO", "Martin", 21) == "Bonjour Martin DAGOSTINO tu as 21 ans."){
+				echo "<p id='koukou'>TEST OK</p>";
+			}else{
+				echo "<p>ERREUR</p>";
+			}
+		?>
+		</div>
+		</div>
+		<div id="no_scroll">
+		<div class="ex ">
+		<?php
+			//Exercice 7
+			echo "<h3>EXERCICE 7</h3>";
+			function coucou(int $AGE, string $Genre){
+				if($AGE>=18 && $Genre=="Homme"){
+					return "Vous êtes un homme et vous êtes majeur";
+				}elseif($AGE<18 && $Genre=="Homme"){
+					return "Vous êtes un homme et vous êtes mineur";
+				}elseif($AGE<18 && $Genre=="Femme"){
+					return "Vous êtes une femme et vous êtes mineur";
+				}else{
+					return "Vous êtes une femme et vous êtes majeur";
+				}
+			}
+			if(coucou(21, "Homme") == "Vous êtes un homme et vous êtes majeur"){
+				echo "<p id='koukou'>TEST OK</p>";
+			}else{
+				echo "<p>ERREUR</p>";
+			}
+		?>
+		</div>
+		</div>
+		<div id="no_scroll">
+		<div class="ex ">
+		<?php
+			//Exercice 8
+			echo "<h3>EXERCICE 8</h3>";
+			function coucou2($n1 = 1, $n2=2, $n3=3){
+				return $n1+$n2+$n3;
+			}
+			if(coucou2() == 6){
+				echo "<p id='koukou'>TEST OK</p>";
+			}else{
+				echo "<p>ERREUR</p>";
+			}
+		?>
+		</div>
+		</div>
 	</body>
 </html>
