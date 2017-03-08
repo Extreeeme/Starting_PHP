@@ -13,7 +13,8 @@
 	<h3>Exercice 3</h3>
 	<?php
 	if(isset($_GET["dateDebut"], $_GET["dateFin"])){
-		echo "<p id='koukou'>".$_GET["dateDebut"]." ".$_GET["dateFin"]."</p>";
+		echo "<p id='koukou'>".$_GET["dateDebut"]."</p>";
+		echo "<p id='koukou'>".$_GET["dateFin"]."</p>";
 	}else{
 		echo "<p id='koukou'>LE PARAMETRE AGE N'EXISTE PAS</p>";
 		echo "<p id='koukou'>ZBLEH</p>";
