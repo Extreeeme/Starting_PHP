@@ -30,7 +30,27 @@
 			$_SESSION["nom"] = "Dagostino";
 			$_SESSION["prenom"] = "Martin";
 		?>
-		<a href="superglobal2.php">SuperGlobal2</a>
+		<a id='koukou' href="superglobal2.php">SuperGlobal2</a>
+		</div>
+		</div>
+		<div id="no_scroll">
+		<div class="ex ">
+		<?php
+			//Exercice 3
+			echo "<h3>EXERCICE 3</h3>";
+			if(isset($_POST["nom"], $_POST["prenom"])){
+				$_COOKIE["nom"] = $_POST["nom"];
+				$_COOKIE["prenom"] = $_POST["prenom"];
+				echo "<p id='koukou'>".$_COOKIE["nom"]."</p>";
+				echo "<p id='koukou'>".$_COOKIE["prenom"]."</p>";
+			}
+			
+		?>
+		<form action="" method="post">
+			<input type="text" name ="nom" placeholder="Nom">
+			<input type="text" name ="prenom" placeholder="Prénom">
+			<button type="submit">VALIDE FRERE</button>
+		</form>
 		</div>
 		</div>
 	</body>
