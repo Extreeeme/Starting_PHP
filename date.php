@@ -31,10 +31,31 @@
 		<?php
 			//Exercice 3
 			echo "<h3>EXERCICE 3</h3>";
-			echo "<p id='koukou'>".strftime("%A %e %B %y")."</p>";
+			echo "<p id='koukou'>".strftime("%A %e %B %Y")."</p>";
 		?>
 		</div>
 		</div>
-
+		<div id="no_scroll">
+		<div class="ex ">
+		<?php
+			//Exercice 3
+			echo "<h3>EXERCICE 3</h3>";
+			echo "<p id='koukou'>". time()."</p>";
+			echo "<p id='koukou'>". mktime(15, 34, 12, 03, 2, 2016)."</p>";
+		?>
+		</div>
+		</div>
+		<div id="no_scroll">
+		<div class="ex ">
+		<?php
+			//Exercice 3
+			echo "<h3>EXERCICE 3</h3>";
+			$jour = round((time() - mktime(0, 0, 0, 05, 16, 2016)) / 60/60/24);
+			echo "<p id='koukou'>".$jour."</p>";
+		?>
+		</div>
+		</div>
+		
+		
 	</body>
 </html>
