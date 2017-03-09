@@ -39,18 +39,35 @@
 			//Exercice 3
 			echo "<h3>EXERCICE 3</h3>";
 			if(isset($_POST["nom"], $_POST["prenom"])){
-				$_COOKIE["nom"] = $_POST["nom"];
-				$_COOKIE["prenom"] = $_POST["prenom"];
+				setcookie('nom', $_POST["nom"]);
+				setcookie('prenom',$_POST["prenom"]);
+				echo "<p id='koukou'>".$_POST["prenom"]."</p>";
+				echo "<p id='koukou'>".$_POST["nom"]."</p>";
+			}
+			elseif(isset($_COOKIE["nom"], $_COOKIE["prenom"])){
+				
 				echo "<p id='koukou'>".$_COOKIE["nom"]."</p>";
 				echo "<p id='koukou'>".$_COOKIE["prenom"]."</p>";
+			}else{
+
+				echo "<form action='' method='post'>";
+				echo "<input type='text' name ='nom' placeholder='Nom'>";;
+				echo "<input type='text' name ='prenom' placeholder='Prénom'>";
+				echo "<button type='submit'>VALIDE FRERE</button>";
+				echo "</form>";
 			}
-			
 		?>
-		<form action="" method="post">
-			<input type="text" name ="nom" placeholder="Nom">
-			<input type="text" name ="prenom" placeholder="Prénom">
-			<button type="submit">VALIDE FRERE</button>
-		</form>
+
+		</div>
+		</div>
+		<div id="no_scroll">
+		<div class="ex ">
+		<?php
+			//Exercice 4
+			echo "<h3>EXERCICE 4</h3>";
+		?>
+
+		<a href="superglobal2.php" id='koukou'>Superglobal Cookies</a>
 		</div>
 		</div>
 	</body>

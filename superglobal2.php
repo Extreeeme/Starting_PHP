@@ -23,5 +23,41 @@
 		</div>
 		</div>
 		<a  href="superglobal.php">SuperGlobal</a>
+		
+		<div id="no_scroll">
+		<div class="ex ">
+		<?php
+			//Exercice 4
+			echo "<h3>EXERCICE 4</h3>";
+			if(isset($_POST["nom"], $_POST["prenom"])){
+				setcookie('nom', $_POST["nom"]);
+				setcookie('prenom', $_POST["prenom"]);
+				echo "<p id='koukou'>".$_POST["nom"]."</p>";
+				echo "<p id='koukou'>".$_POST["prenom"]."</p>";
+				echo "<form action='' method='post'>";
+				echo "<input type='text' name ='nom' placeholder='Mofifier le Nom'>";;
+				echo "<input type='text' name ='prenom' placeholder='Modifier le Prénom'>";
+				echo "<button type='submit'>VALIDE FRERE</button>";
+				echo "</form>";
+			}elseif(isset($_COOKIE["nom"], $_COOKIE["prenom"])){
+				echo "<p id='koukou'>".$_COOKIE["nom"]."</p>";
+				echo "<p id='koukou'>".$_COOKIE["prenom"]."</p>";
+				echo "<form action='' method='post'>";
+				echo "<input type='text' name ='nom' placeholder='Mofifier le Nom'>";;
+				echo "<input type='text' name ='prenom' placeholder='Modifier le Prénom'>";
+				echo "<button type='submit'>VALIDE FRERE</button>";
+				echo "</form>";
+			}else{
+				echo "<form action='' method='post'>";
+				echo "<input type='text' name ='nom' placeholder='Mofifier le Nom'>";;
+				echo "<input type='text' name ='prenom' placeholder='Modifier le Prénom'>";
+				echo "<button type='submit'>VALIDE FRERE</button>";
+				echo "</form>";
+			}
+			
+				
+		?>
+		</div>
+		</div>
 	</body>
 </html>
