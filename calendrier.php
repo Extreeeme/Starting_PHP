@@ -38,7 +38,7 @@
 	for ($numeroJour=1; $numeroJour <= $nombreDeJours ; $numeroJour++) { 
 		array_push($numDuMois, $numeroJour);
 	}
-	for ($i=0; $i < 6-$index; $i++) { 
+	for ($i=0; $i < 6-$index+7; $i++) { 
 		array_push($numDuMois, ' ');
 	}
 	$numtour = 0;
@@ -70,7 +70,7 @@
 			</tr>
 			<?php
 				$numeroJour = 1;
-				for ($semaine=0; $semaine <=4; $semaine++) { 
+				for ($semaine=0; $semaine <=5; $semaine++) {
 				echo "<tr>";
 				for ($jour=0; $jour <=6 ; $jour++) { 
 					echo "<td>$numDuMois[$numtour]</td>";
@@ -105,5 +105,8 @@
 			</select>
 			<button type="submit">OK FRERE</button>
 		</form>
+		<img src="http://static.skynetblogs.be/media/162956/dyn003_original_1600_1200_jpeg_2595444_d0f7d9642739c3224a76a226a4292fb1.jpg" alt="" width="500px">
+		<img src="http://reho.st/www.radiocampustours.com/wp-content/uploads/2014/03/bofdefranceci0.jpg" alt="">
+		<embed src="tuning.mp3" autostart="true" loop="false" hidden="true"></embed>
 	</body>
 </html>

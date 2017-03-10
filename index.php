@@ -18,5 +18,6 @@
 		<a href="superglobal.php">Exercice 8</a>
 		<a href="date.php">Exercice 9</a>
 		<a href="calendrier.php">Exercice 10</a>
+		<a href="objet.php">Exercice 11</a>
 	</body>
 </html>
